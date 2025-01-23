@@ -1,0 +1,8 @@
+*.pdf
+*.PDF
+_*
+.venv
+.env
+*.sqlite3
+streamlit-chatbot-ui/db/*
+langchain-rag-pdf/tutorial-1/db/*
