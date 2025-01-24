@@ -24,7 +24,7 @@ check_interval = 10
 vector_store = Chroma(
     collection_name="MFdocuments",
     embedding_function=embeddings,
-    persist_directory="./db/chroma_langchain_db_ibm_granite",  # Where to save data locally
+    persist_directory="./db/chroma_langchain_db_all-minilm",  # Where to save data locally
 )
 
 # Ingest a file
