@@ -6,3 +6,4 @@ _*
 *.sqlite3
 streamlit-chatbot-ui/db/*
 langchain-rag-pdf/tutorial-1/db/*
+all_pdfs_m

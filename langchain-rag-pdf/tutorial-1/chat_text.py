@@ -13,8 +13,7 @@ llm = models.model_ollama
 vector_store = Chroma(
     collection_name="IntelliMagic",
     embedding_function=embeddings,
-    # persist_directory="./db/chroma_langchain_db_mxbe",  # Where to save data locally
-    persist_directory="../db/chroma_langchain_db_text_deepseek",  # Where to save data locally
+    persist_directory="./db/chroma_langchain_db_text",  # Where to save data locally
 )
 
 # Define the chat prompt
